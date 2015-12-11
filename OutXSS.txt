@@ -1,0 +1,1560 @@
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AppDelegate.m Line no:10 category:SQL_Injection description:Can be used for attack code:// Initialize all of the static asset data.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AppDelegate.m Line no:11 category:SQL_Injection description:Can be used for attack code:assetStore = [[AssetStore alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AppDelegate.m Line no:15 category:SQL_Injection description:Can be used for attack code:UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AppDelegate.m Line no:19 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AppDelegate.m Line no:55 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Asset.m Line no:6 category:SQL_Injection description:Can be used for attack code:"  <link href=\"igoat.css\" rel=\"stylesheet\" type=\"text/css\">"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Asset.m Line no:41 category:Stored_XSS description:Can be used for attack code:stringByReplacingOccurrencesOfString:paraRegex withString:@"<br/><br/>"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Asset.m Line no:41 category:Stored_XSS description:Can be used for attack code:stringByReplacingOccurrencesOfString:paraRegex withString:@"<br/><br/>"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Asset.m Line no:45 category:SQL_Injection description:Can be used for attack code:// Insert the description into the context of a body tag and return full HTML.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Asset.m Line no:60 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:11 category:SQL_Injection description:Can be used for attack code:categories = [[NSMutableArray alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:15 category:SQL_Injection description:Can be used for attack code:NSDictionary *assets = [NSDictionary dictionaryWithContentsOfFile:assetsListPath];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:15 category:SQL_Injection description:Can be used for attack code:NSDictionary *assets = [NSDictionary dictionaryWithContentsOfFile:assetsListPath];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:15 category:Stored_XSS description:Can be used for attack code:NSDictionary *assets = [NSDictionary dictionaryWithContentsOfFile:assetsListPath];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:15 category:Stored_XSS description:Can be used for attack code:NSDictionary *assets = [NSDictionary dictionaryWithContentsOfFile:assetsListPath];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:23 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:26 category:SQL_Injection description:Can be used for attack code:Exercise *exercise = [[Exercise alloc] initWithName:[exerciseDict objectForKey:@"name"]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\AssetStore.m Line no:53 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:21 category:Cut_And_Paste-Leakage description:Can be used for attack code://  selector:@selector(didEnterBackground:) name:@"didEnterBackground"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:25 category:Cut_And_Paste-Leakage description:Can be used for attack code://  selector:@selector(didBecomeActive:) name:@"didBecomeActive"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:28 category:SQL_Injection description:Can be used for attack code:// Don't forget to remove the observers in a dealloc() method, which should look
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:30 category:SQL_Injection description:Can be used for attack code://      - (void)dealloc:(NSString *)nibNameOrNil
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:47 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.cityField.hidden = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:48 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.colorField.hidden = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\BackgroundingExerciseController.m Line no:68 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Category.m Line no:10 category:SQL_Injection description:Can be used for attack code:self.exercises = [[NSMutableArray alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Category.m Line no:27 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:31 category:SQL_Injection description:Can be used for attack code:// are simply overwritten with an empty string. We should find a secure way to
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:39 category:Cut_And_Paste-Leakage description:Can be used for attack code://  selector:@selector(didEnterBackground:) name:@"didEnterBackground"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:43 category:Cut_And_Paste-Leakage description:Can be used for attack code://  selector:@selector(didBecomeActive:) name:@"didBecomeActive"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:46 category:SQL_Injection description:Can be used for attack code:// Don't forget to remove the observers in a dealloc() method, which should look
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:48 category:SQL_Injection description:Can be used for attack code://      - (void)dealloc:(NSString *)nibNameOrNil
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:67 category:SQL_Injection description:Can be used for attack code:UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\CutAndPasteExerciseController.m Line no:89 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:24 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.categoriesPopoverController dismissPopoverAnimated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:29 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:29 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:29 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:34 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.startButton setEnabled:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:35 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.creditsButton setEnabled:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:37 category:SQL_Injection description:Can be used for attack code:// Set the HTML on the web view to the intro text.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:38 category:SQL_Injection description:Can be used for attack code:[self.webView loadHTMLString:[self.exercise htmlDescription] baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:48 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:48 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:48 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:51 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:61 category:Cut_And_Paste-Leakage description:Can be used for attack code:} else if ([identifier isEqualToString:@"showCredits"]) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:63 category:Cut_And_Paste-Leakage description:Can be used for attack code:controller.content = [self.exercise htmlCredits];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:80 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:86 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:87 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.navigationItem setLeftBarButtonItem:nil animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\DetailViewController.m Line no:102 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:21 category:Cut_And_Paste-Leakage description:Can be used for attack code:- (NSString *)htmlCredits {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:25 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:25 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:25 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:35 category:Stored_XSS description:Can be used for attack code:stringByReplacingOccurrencesOfString:paraRegex withString:@"<br/><br/>"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:35 category:Stored_XSS description:Can be used for attack code:stringByReplacingOccurrencesOfString:paraRegex withString:@"<br/><br/>"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:39 category:SQL_Injection description:Can be used for attack code:// Insert the description into the context of a body tag and return full HTML.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Exercise.m Line no:56 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseContainerViewController.m Line no:28 category:SQL_Injection description:Can be used for attack code:// self.currentVC = self.childViewControllers.lastObject;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseContainerViewController.m Line no:48 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseContainerViewController.m Line no:48 category:Unsafe_Reflection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseContainerViewController.m Line no:60 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseContainerViewController.m Line no:121 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:19 category:SQL_Injection description:Can be used for attack code:- (void)dealloc {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:22 category:SQL_Injection description:Can be used for attack code:[super dealloc];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:31 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *homeButton = [[[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:33 category:Cut_And_Paste-Leakage description:Can be used for attack code:target:self action:@selector(goHome)] autorelease];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:38 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *flexibleSpaceItem = [[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:42 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *creditsButton = [[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:43 category:Cut_And_Paste-Leakage description:Can be used for attack code:initWithTitle:@"Credits"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:45 category:Cut_And_Paste-Leakage description:Can be used for attack code:target:self action:@selector(showInfoDialog)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:47 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *startButton = [[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:50 category:Cut_And_Paste-Leakage description:Can be used for attack code:target:self action:@selector(startExercise)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:65 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:65 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:65 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:66 category:SQL_Injection description:Can be used for attack code:[self.webView loadHTMLString:exercise.htmlDescription baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:68 category:SQL_Injection description:Can be used for attack code:[baseURL release];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:78 category:Cut_And_Paste-Leakage description:Can be used for attack code:[[self navigationController] popToRootViewControllerAnimated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:83 category:SQL_Injection description:Can be used for attack code:ExerciseViewController *controller = [[NSClassFromString(self.exercise.initialViewController) alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:83 category:Unsafe_Reflection description:Can be used for attack code:ExerciseViewController *controller = [[NSClassFromString(self.exercise.initialViewController) alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:89 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.navigationController pushViewController:controller animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:94 category:SQL_Injection description:Can be used for attack code:UIAlertView *alert = [[[UIAlertView alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:103 category:SQL_Injection description:Can be used for attack code:InfoViewController *infoViewController = [[InfoViewController alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:105 category:Cut_And_Paste-Leakage description:Can be used for attack code:bundle:nil infoText:exercise.htmlCredits];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:118 category:Cut_And_Paste-Leakage description:Can be used for attack code:// Return YES for supported orientations.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseIntroViewController.m Line no:133 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExercisesViewController.m Line no:23 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExercisesViewController.m Line no:47 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExercisesViewController.m Line no:51 category:SQL_Injection description:Can be used for attack code:[[cell textLabel] setText:[[category.exercises objectAtIndex:indexPath.row] description]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExercisesViewController.m Line no:89 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:32 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:41 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:45 category:SQL_Injection description:Can be used for attack code:- (IBAction)textFieldReturn:(id)sender {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:64 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:65 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:68 category:SQL_Injection description:Can be used for attack code:// Called when the UIKeyboardDidShowNotification is sent.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:83 category:SQL_Injection description:Can be used for attack code:// If active text field is hidden by keyboard, scroll it so it's visible
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:88 category:Cut_And_Paste-Leakage description:Can be used for attack code:[scrollView setContentOffset:scrollPoint animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:92 category:SQL_Injection description:Can be used for attack code:// Called when the UIKeyboardWillHideNotification is sent
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:97 category:Cut_And_Paste-Leakage description:Can be used for attack code:[scrollView setContentOffset:CGPointMake(0.0, 0.0) animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:101 category:SQL_Injection description:Can be used for attack code:- (IBAction)textFieldDidBeginEditing:(id)sender {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:103 category:SQL_Injection description:Can be used for attack code:activeField = (UITextField *)sender;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:106 category:SQL_Injection description:Can be used for attack code:activeField = (UITextField *)sender;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ExerciseViewController.m Line no:134 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:15 category:SQL_Injection description:Can be used for attack code:// Set the content to the first hint.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:22 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:22 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:26 category:SQL_Injection description:Can be used for attack code:recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(loadNextHint)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:26 category:Cut_And_Paste-Leakage description:Can be used for attack code:recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(loadNextHint)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:33 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.pageControl.defersCurrentPageDisplay = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:36 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:45 category:SQL_Injection description:Can be used for attack code:[self.pageControl updateCurrentPageDisplay];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:75 category:SQL_Injection description:Can be used for attack code:- (NSString *)formatAsHtml:(NSString *)text {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:76 category:SQL_Injection description:Can be used for attack code:if ([text hasPrefix:@"<html>"]) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:77 category:SQL_Injection description:Can be used for attack code:return text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:80 category:SQL_Injection description:Can be used for attack code:"<link href=\"igoat.css\" rel=\"stylesheet\" type=\"text/css\">"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:82 category:SQL_Injection description:Can be used for attack code:self.exercise.name, (self.exercise.hintIndex + 1), self.exercise.totalHints, text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HintsViewController.m Line no:97 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:9 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:9 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:9 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:13 category:SQL_Injection description:Can be used for attack code:[self.webView loadHTMLString:_content baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:18 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:18 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:18 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:21 category:SQL_Injection description:Can be used for attack code:[self.webView loadHTMLString:[NSString stringWithFormat:fileContents, version] baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:34 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:34 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:34 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:35 category:SQL_Injection description:Can be used for attack code:[self.webView loadHTMLString:_content baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:52 category:SQL_Injection description:Can be used for attack code:"<link href=\"igoat.css\" rel=\"stylesheet\" type=\"text/css\">"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\HtmlViewController.m Line no:68 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:11 category:SQL_Injection description:Can be used for attack code:// Initialize all of the static asset data.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:12 category:SQL_Injection description:Can be used for attack code:assetStore = [[AssetStore alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:17 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:44 category:SQL_Injection description:Can be used for attack code:- (void)dealloc {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:48 category:SQL_Injection description:Can be used for attack code:[super dealloc];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\iGoatAppDelegate.m Line no:62 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:10 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:12 category:SQL_Injection description:Can be used for attack code:self.infoText = text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:28 category:SQL_Injection description:Can be used for attack code:- (void)loadHtmlString:(NSString *)text {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:31 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:31 category:SQL_Injection description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:31 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:resourcePath isDirectory:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:32 category:SQL_Injection description:Can be used for attack code:[self.infoWebView loadHTMLString:[self formatAsHtml:text] baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:32 category:SQL_Injection description:Can be used for attack code:[self.infoWebView loadHTMLString:[self formatAsHtml:text] baseURL:baseURL];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:33 category:SQL_Injection description:Can be used for attack code:[baseURL release];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:37 category:Cut_And_Paste-Leakage description:Can be used for attack code:// Return YES for supported orientations
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:46 category:SQL_Injection description:Can be used for attack code:- (NSString *)formatAsHtml:(NSString *)text {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:47 category:SQL_Injection description:Can be used for attack code:if ([text hasPrefix:@"<html>"]) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:48 category:SQL_Injection description:Can be used for attack code:return text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:51 category:SQL_Injection description:Can be used for attack code:"<link href=\"igoat.css\" rel=\"stylesheet\" type=\"text/css\">"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:52 category:SQL_Injection description:Can be used for attack code:"<head><body>%@</body></html>", text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:56 category:SQL_Injection description:Can be used for attack code:- (void)dealloc {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:59 category:SQL_Injection description:Can be used for attack code:[super dealloc];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\InfoViewController.m Line no:73 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:22 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize username = _username, password = _password, rememberMe = _rememberMe;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:22 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize username = _username, password = _password, rememberMe = _rememberMe;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:22 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize username = _username, password = _password, rememberMe = _rememberMe;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:27 category:SQL_Injection description:Can be used for attack code:[credentials setObject:self.username.text forKey:@"username"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:27 category:Cut_And_Paste-Leakage description:Can be used for attack code:[credentials setObject:self.username.text forKey:@"username"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:28 category:SQL_Injection description:Can be used for attack code:[credentials setObject:self.password.text forKey:@"password"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:28 category:Cut_And_Paste-Leakage description:Can be used for attack code:[credentials setObject:self.password.text forKey:@"password"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:28 category:Cut_And_Paste-Leakage description:Can be used for attack code:[credentials setObject:self.password.text forKey:@"password"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:41 category:Cut_And_Paste-Leakage description:Can be used for attack code:// Store password encoded.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:41 category:Cut_And_Paste-Leakage description:Can be used for attack code:// Store password encoded.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:42 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:42 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:42 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:43 category:SQL_Injection description:Can be used for attack code:[storeCredentials setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:43 category:Cut_And_Paste-Leakage description:Can be used for attack code:[storeCredentials setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:43 category:Cut_And_Paste-Leakage description:Can be used for attack code:[storeCredentials setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:53 category:Cut_And_Paste-Leakage description:Can be used for attack code:// If username exists in keychain...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:65 category:Cut_And_Paste-Leakage description:Can be used for attack code:// Encoded passsword.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:69 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:69 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:69 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:70 category:Log_Forging description:Can be used for attack code:NSLog(@"Password from keychain: %@",passwordFromKeychain);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:70 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSLog(@"Password from keychain: %@",passwordFromKeychain);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:70 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSLog(@"Password from keychain: %@",passwordFromKeychain);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:72 category:SQL_Injection description:Can be used for attack code:NSMutableDictionary *updateQuery = [NSMutableDictionary dictionary];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:74 category:SQL_Injection description:Can be used for attack code:// Setting up updateQuery dictionary to query existing keychain entries.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:75 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:76 category:SQL_Injection description:Can be used for attack code:[updateQuery setObject: self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:76 category:SQL_Injection description:Can be used for attack code:[updateQuery setObject: self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:76 category:Cut_And_Paste-Leakage description:Can be used for attack code:[updateQuery setObject: self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:76 category:Cut_And_Paste-Leakage description:Can be used for attack code:[updateQuery setObject: self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:78 category:SQL_Injection description:Can be used for attack code:// Making dictionary with information to update "SecItemUpdate" ready. It's
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:78 category:SQL_Injection description:Can be used for attack code:// Making dictionary with information to update "SecItemUpdate" ready. It's
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:79 category:SQL_Injection description:Can be used for attack code:// needed both updateQuery and tempUpdateQuery dictionaries to be similar.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:85 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:85 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:85 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:86 category:SQL_Injection description:Can be used for attack code:[tempUpdateQuery setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:86 category:Cut_And_Paste-Leakage description:Can be used for attack code:[tempUpdateQuery setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:86 category:Cut_And_Paste-Leakage description:Can be used for attack code:[tempUpdateQuery setObject:self.username.text forKey:(id)CFBridgingRelease(kSecAttrAccount)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:89 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:107 category:Log_Forging description:Can be used for attack code:NSLog(@"In storeButtonPressed()");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:109 category:SQL_Injection description:Can be used for attack code:self.username.text = _username.text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:109 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.username.text = _username.text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:110 category:SQL_Injection description:Can be used for attack code:self.password.text = _password.text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:110 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.password.text = _password.text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:110 category:Cut_And_Paste-Leakage description:Can be used for attack code:self.password.text = _password.text;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:113 category:SQL_Injection description:Can be used for attack code:[userName setText:userName.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:114 category:SQL_Injection description:Can be used for attack code:[password setText:password.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:114 category:Cut_And_Paste-Leakage description:Can be used for attack code:[password setText:password.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:114 category:Cut_And_Paste-Leakage description:Can be used for attack code:[password setText:password.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:117 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:117 category:Log_Forging description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:117 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:117 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:117 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:120 category:SQL_Injection description:Can be used for attack code:// Stores/updates credentials in NSUserDefaults.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:126 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:128 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:130 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:130 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:132 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:134 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:144 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeychainExerciseViewController.m Line no:160 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:31 category:SQL_Injection description:Can be used for attack code:// textfields to NO, like this:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:36 category:SQL_Injection description:Can be used for attack code:// You have to do it there specifically, if you do it earlier, in for example
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:41 category:SQL_Injection description:Can be used for attack code:// Builder. To do this, select the each UITextField in the
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:45 category:SQL_Injection description:Can be used for attack code:// NOTE: This is only a partial solution to the problem! Did you notice not all
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:50 category:SQL_Injection description:Can be used for attack code:// clear context to the information stored in the log. It's far from perfect,
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\KeystrokeLoggingExerciseController.m Line no:65 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:6 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField, credentialStorageSwitch;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:6 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField, credentialStorageSwitch;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:6 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField, credentialStorageSwitch;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:9 category:SQL_Injection description:Can be used for attack code:NSString *username = [[NSString alloc] initWithString:usernameField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:9 category:SQL_Injection description:Can be used for attack code:NSString *username = [[NSString alloc] initWithString:usernameField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:9 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString *username = [[NSString alloc] initWithString:usernameField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:10 category:SQL_Injection description:Can be used for attack code:NSString *password = [[NSString alloc] initWithString:passwordField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:10 category:SQL_Injection description:Can be used for attack code:NSString *password = [[NSString alloc] initWithString:passwordField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:10 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString *password = [[NSString alloc] initWithString:passwordField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:10 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString *password = [[NSString alloc] initWithString:passwordField.text];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:13 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self storeCredentialsForUsername:username withPassword:password];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:13 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self storeCredentialsForUsername:username withPassword:password];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:13 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self storeCredentialsForUsername:username withPassword:password];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:16 category:SQL_Injection description:Can be used for attack code:usernameField.text = @"";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:16 category:Cut_And_Paste-Leakage description:Can be used for attack code:usernameField.text = @"";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:17 category:SQL_Injection description:Can be used for attack code:passwordField.text = @"";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:17 category:Cut_And_Paste-Leakage description:Can be used for attack code:passwordField.text = @"";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:17 category:Cut_And_Paste-Leakage description:Can be used for attack code:passwordField.text = @"";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:20 category:Cut_And_Paste-Leakage description:Can be used for attack code:- (void)storeCredentialsForUsername:(NSString *)username withPassword:(NSString *)password {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:20 category:Cut_And_Paste-Leakage description:Can be used for attack code:- (void)storeCredentialsForUsername:(NSString *)username withPassword:(NSString *)password {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:20 category:Cut_And_Paste-Leakage description:Can be used for attack code:- (void)storeCredentialsForUsername:(NSString *)username withPassword:(NSString *)password {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:30 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:30 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:30 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:32 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_exec(credentialsDB, createStmt, NULL, NULL, NULL);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:34 category:SQL_Injection description:Can be used for attack code:// Check to see if the user exists; update if yes, add if no.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:35 category:Cut_And_Paste-Leakage description:Can be used for attack code:const char *queryStmt = "SELECT id FROM creds WHERE username=?";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:38 category:Second_Order_SQL_Injection description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, queryStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:38 category:SQL_Injection description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, queryStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:38 category:Stored_XSS description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, queryStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:39 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:39 category:SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:39 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:39 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:39 category:Cut_And_Paste-Leakage description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:40 category:SQL_Injection description:Can be used for attack code:while (sqlite3_step(compiledStmt) == SQLITE_ROW) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:40 category:Stored_XSS description:Can be used for attack code:while (sqlite3_step(compiledStmt) == SQLITE_ROW) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:50 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "UPDATE creds SET username=?, password=? WHERE id=?";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:50 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "UPDATE creds SET username=?, password=? WHERE id=?";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:50 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "UPDATE creds SET username=?, password=? WHERE id=?";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:52 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "INSERT INTO creds(username, password) VALUES(?, ?)";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:52 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "INSERT INTO creds(username, password) VALUES(?, ?)";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:52 category:Cut_And_Paste-Leakage description:Can be used for attack code:addUpdateStmt = "INSERT INTO creds(username, password) VALUES(?, ?)";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:55 category:Second_Order_SQL_Injection description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, addUpdateStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:55 category:SQL_Injection description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, addUpdateStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:55 category:Stored_XSS description:Can be used for attack code:if (sqlite3_prepare_v2(credentialsDB, addUpdateStmt, -1, &compiledStmt, NULL) == SQLITE_OK) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:56 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:56 category:SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:56 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:56 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:56 category:Cut_And_Paste-Leakage description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 1, [username UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:Cut_And_Paste-Leakage description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:57 category:Cut_And_Paste-Leakage description:Can be used for attack code:sqlite3_bind_text(compiledStmt, 2, [password UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:59 category:Second_Order_SQL_Injection description:Can be used for attack code:if (userID >= 0) sqlite3_bind_int(compiledStmt, 3, userID);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:59 category:Second_Order_SQL_Injection description:Can be used for attack code:if (userID >= 0) sqlite3_bind_int(compiledStmt, 3, userID);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:59 category:Second_Order_SQL_Injection description:Can be used for attack code:if (userID >= 0) sqlite3_bind_int(compiledStmt, 3, userID);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:60 category:SQL_Injection description:Can be used for attack code:if (sqlite3_step(compiledStmt) != SQLITE_DONE) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:60 category:Stored_XSS description:Can be used for attack code:if (sqlite3_step(compiledStmt) != SQLITE_DONE) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:61 category:Log_Forging description:Can be used for attack code:NSLog(@"Error storing credentials in SQLite database.");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:68 category:Log_Forging description:Can be used for attack code:NSLog(@"Error finalizing SQLite compiled statement.");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:70 category:Log_Forging description:Can be used for attack code:NSLog(@"Error closing SQLite database.");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:74 category:Log_Forging description:Can be used for attack code:NSLog(@"Error closing SQLite database.");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:92 category:SQL_Injection description:Can be used for attack code:// Finally, immediately after opening the database and before executing the
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:93 category:SQL_Injection description:Can be used for attack code:// create table statement, make the following call to "key" the database (on
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:96 category:Second_Order_SQL_Injection description:Can be used for attack code:// sqlite3_exec(credentialsDB, "PRAGMA key = 'secretKey!'", NULL, NULL, NULL);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:102 category:SQL_Injection description:Can be used for attack code:// encrypted and unreadable.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\LocalDataStorageExerciseController.m Line no:116 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\main.m Line no:19 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\MasterViewController.m Line no:18 category:SQL_Injection description:Can be used for attack code:// Do any additional setup after loading the view, typically from a nib.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\MasterViewController.m Line no:41 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\MasterViewController.m Line no:45 category:SQL_Injection description:Can be used for attack code:[[cell textLabel] setText:[[AssetStore.categories objectAtIndex:indexPath.row] description]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\MasterViewController.m Line no:78 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSObject+SBJSON.m Line no:5 category:SQL_Injection description:Can be used for attack code:modification, are permitted provided that the following conditions are met:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSObject+SBJSON.m Line no:8 category:SQL_Injection description:Can be used for attack code:list of conditions and the following disclaimer.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSObject+SBJSON.m Line no:11 category:SQL_Injection description:Can be used for attack code:this list of conditions and the following disclaimer in the documentation
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSObject+SBJSON.m Line no:39 category:Log_Forging description:Can be used for attack code:NSLog(@"-JSONRepresentation failed. Error trace is: %@", [jsonWriter errorTrace]);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSString+SBJSON.m Line no:5 category:SQL_Injection description:Can be used for attack code:modification, are permitted provided that the following conditions are met:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSString+SBJSON.m Line no:8 category:SQL_Injection description:Can be used for attack code:list of conditions and the following disclaimer.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSString+SBJSON.m Line no:11 category:SQL_Injection description:Can be used for attack code:this list of conditions and the following disclaimer in the documentation
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\NSString+SBJSON.m Line no:40 category:Log_Forging description:Can be used for attack code:NSLog(@"-JSONValue failed. Error trace is: %@", [jsonParser errorTrace]);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:5 category:SQL_Injection description:Can be used for attack code:NSString * const TOKEN_URL = @"http://localhost:8080/igoat/token?username=%@&password=%@";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:5 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString * const TOKEN_URL = @"http://localhost:8080/igoat/token?username=%@&password=%@";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:5 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString * const TOKEN_URL = @"http://localhost:8080/igoat/token?username=%@&password=%@";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:5 category:Cut_And_Paste-Leakage description:Can be used for attack code:NSString * const TOKEN_URL = @"http://localhost:8080/igoat/token?username=%@&password=%@";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:7 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:7 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:7 category:Cut_And_Paste-Leakage description:Can be used for attack code:@synthesize usernameField, passwordField;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:10 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:10 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:10 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:10 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:10 category:Cut_And_Paste-Leakage description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:11 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:15 category:Stored_XSS description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:21 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:21 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:21 category:Stored_XSS description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:23 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:23 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:23 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:27 category:SQL_Injection description:Can be used for attack code:alert = [[UIAlertView alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:32 category:SQL_Injection description:Can be used for attack code:alert = [[UIAlertView alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:41 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:41 category:Stored_XSS description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:42 category:SQL_Injection description:Can be used for attack code:UIAlertView *alert = [[UIAlertView alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:49 category:Log_Forging description:Can be used for attack code:NSLog(@"Request failed: %@ %@", [error localizedDescription],
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:50 category:SQL_Injection description:Can be used for attack code:[[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:53 category:SQL_Injection description:Can be used for attack code:- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:53 category:Stored_XSS description:Can be used for attack code:- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:62 category:SQL_Injection description:Can be used for attack code:// the TOKEN_URL constant at the top of the file to...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:64 category:Cut_And_Paste-Leakage description:Can be used for attack code:// "https://localhost:8443/igoat/token?username=%@&password=%@"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:64 category:Cut_And_Paste-Leakage description:Can be used for attack code:// "https://localhost:8443/igoat/token?username=%@&password=%@"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:64 category:Cut_And_Paste-Leakage description:Can be used for attack code:// "https://localhost:8443/igoat/token?username=%@&password=%@"
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:66 category:SQL_Injection description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:66 category:SQL_Injection description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:66 category:Stored_XSS description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:70 category:Cut_And_Paste-Leakage description:Can be used for attack code:// username and password to the server (for the sake demonstration). In general,
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:70 category:Cut_And_Paste-Leakage description:Can be used for attack code:// username and password to the server (for the sake demonstration). In general,
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:70 category:Cut_And_Paste-Leakage description:Can be used for attack code:// username and password to the server (for the sake demonstration). In general,
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:73 category:SQL_Injection description:Can be used for attack code:// plaintext.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:77 category:SQL_Injection description:Can be used for attack code:// Additionally, uncomment the two methods defined below to instruct the
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:78 category:SQL_Injection description:Can be used for attack code:// NSURLConnection to ignore the fact that the iGoat server is using a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:78 category:Stored_XSS description:Can be used for attack code:// NSURLConnection to ignore the fact that the iGoat server is using a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:79 category:SQL_Injection description:Can be used for attack code:// self-signed certificate. Normally you would NOT want to do this in a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:84 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:84 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:85 category:SQL_Injection description:Can be used for attack code:return [protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:88 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:88 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:88 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:89 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:89 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RemoteAuthenticationExerciseController.m Line no:104 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:11 category:SQL_Injection description:Can be used for attack code:// Show splash page on first launch (experimental still, KRvW).
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:12 category:SQL_Injection description:Can be used for attack code:BOOL firstLaunch = [[[[NSBundle mainBundle] infoDictionary]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:15 category:SQL_Injection description:Can be used for attack code:if (firstLaunch) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:18 category:Cut_And_Paste-Leakage description:Can be used for attack code:// TODO: Set the FirstLaunch property to YES.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:20 category:SQL_Injection description:Can be used for attack code://  setObject:[firstLaunch boolValue:"No"] objectForKey:@"FirstLaunch"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:28 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *flexibleSpaceItem = [[[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:33 category:Cut_And_Paste-Leakage description:Can be used for attack code:[infoButton addTarget:self action:@selector(showInfoDialog)
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:36 category:SQL_Injection description:Can be used for attack code:UIBarButtonItem *infoButtonItem = [[[UIBarButtonItem alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:52 category:SQL_Injection description:Can be used for attack code:NSString *fileContentsAsString = [[NSString alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:53 category:SQL_Injection description:Can be used for attack code:initWithContentsOfFile:path
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:53 category:Stored_XSS description:Can be used for attack code:initWithContentsOfFile:path
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:62 category:SQL_Injection description:Can be used for attack code:InfoViewController *infoViewController = [[InfoViewController alloc]
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:96 category:SQL_Injection description:Can be used for attack code:cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:101 category:SQL_Injection description:Can be used for attack code:UIImageView *selectedBackground = [[UIImageView alloc] initWithFrame:CGRectMake(0,0, 320,100)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:104 category:SQL_Injection description:Can be used for attack code:[[cell textLabel] setTextColor:UIColorFromHex(0xc3c3c3)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:105 category:SQL_Injection description:Can be used for attack code:[[cell textLabel] setText:[[AssetStore.categories objectAtIndex:indexPath.row] description]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:112 category:SQL_Injection description:Can be used for attack code:[[ExercisesViewController alloc] initWithNibName:@"ExercisesViewController" bundle:nil
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:117 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.navigationController pushViewController:exercisesViewController animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RootViewController.m Line no:132 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RotationLimitingNavigationViewController.m Line no:9 category:SQL_Injection description:Can be used for attack code:// Overridden to allow rotation only on the iPad.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\RotationLimitingNavigationViewController.m Line no:29 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonBase.m Line no:5 category:SQL_Injection description:Can be used for attack code:modification, are permitted provided that the following conditions are met:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonBase.m Line no:8 category:SQL_Injection description:Can be used for attack code:list of conditions and the following disclaimer.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonBase.m Line no:11 category:SQL_Injection description:Can be used for attack code:this list of conditions and the following disclaimer in the documentation
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonBase.m Line no:55 category:SQL_Injection description:Can be used for attack code:[errorTrace lastObject], NSUnderlyingErrorKey,
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:5 category:SQL_Injection description:Can be used for attack code:modification, are permitted provided that the following conditions are met:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:8 category:SQL_Injection description:Can be used for attack code:list of conditions and the following disclaimer.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:11 category:SQL_Injection description:Can be used for attack code:this list of conditions and the following disclaimer in the documentation
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:43 category:SQL_Injection description:Can be used for attack code:// Cannot manage without looking at the first digit
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:109 category:SQL_Injection description:Can be used for attack code:*error = [self.errorTrace lastObject];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:142 category:SQL_Injection description:Can be used for attack code:c--; // cannot verify number correctly without the first character
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:146 category:SQL_Injection description:Can be used for attack code:[self addErrorWithCode:EPARSENUM description: @"Leading + disallowed in number"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:167 category:Cut_And_Paste-Leakage description:Can be used for attack code:*o = [NSNumber numberWithBool:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:168 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:170 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self addErrorWithCode:EPARSE description:@"Expected 'true'"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:179 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:189 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:209 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:223 category:SQL_Injection description:Can be used for attack code:[self addErrorWithCode:ETRAILCOMMA description: @"Trailing comma disallowed in array"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:248 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:275 category:SQL_Injection description:Can be used for attack code:[self addErrorWithCode:ETRAILCOMMA description: @"Trailing comma disallowed in object"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:287 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:291 category:SQL_Injection description:Can be used for attack code:*o = [[NSMutableString alloc] initWithBytes:(char*)c length:len encoding:NSUTF8StringEncoding];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:293 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:303 category:SQL_Injection description:Can be used for attack code:id t = [[NSString alloc] initWithBytesNoCopy:(char*)c
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:315 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:352 category:Log_Forging description:Can be used for attack code:NSLog(@"should not be able to get here");
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:391 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:411 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:416 category:Cut_And_Paste-Leakage description:Can be used for attack code:BOOL simple = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:429 category:SQL_Injection description:Can be used for attack code:[self addErrorWithCode:EPARSENUM description: @"Leading 0 disallowed in number"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:466 category:SQL_Injection description:Can be used for attack code:// If we are only reading integers, don't go through the expense of creating an NSDecimal.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:474 category:Cut_And_Paste-Leakage description:Can be used for attack code:negate = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:489 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:495 category:SQL_Injection description:Can be used for attack code:id str = [[NSString alloc] initWithBytesNoCopy:(char*)ns
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonParser.m Line no:500 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:5 category:SQL_Injection description:Can be used for attack code:modification, are permitted provided that the following conditions are met:
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:8 category:SQL_Injection description:Can be used for attack code:list of conditions and the following disclaimer.
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:11 category:SQL_Injection description:Can be used for attack code:this list of conditions and the following disclaimer in the documentation
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:65 category:Cut_And_Paste-Leakage description:Can be used for attack code:if ([value respondsToSelector:@selector(proxyForJson)]) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:81 category:SQL_Injection description:Can be used for attack code:*error = [self.errorTrace lastObject];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:104 category:Cut_And_Paste-Leakage description:Can be used for attack code:[json appendString:[fragment boolValue] ? @"true" : @"false"];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:118 category:Cut_And_Paste-Leakage description:Can be used for attack code:} else if ([fragment respondsToSelector:@selector(proxyForJson)]) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:125 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:140 category:Cut_And_Paste-Leakage description:Can be used for attack code:addComma = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:154 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:166 category:SQL_Injection description:Can be used for attack code:NSArray *keys = [fragment allKeys];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:168 category:Cut_And_Paste-Leakage description:Can be used for attack code:keys = [keys sortedArrayUsingSelector:@selector(compare:)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:174 category:Cut_And_Paste-Leakage description:Can be used for attack code:addComma = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:198 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SBJsonWriter.m Line no:235 category:Cut_And_Paste-Leakage description:Can be used for attack code:return YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:6 category:SQL_Injection description:Can be used for attack code:NSString * const USER_URL = @"http://localhost:8080/igoat/user";
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:8 category:SQL_Injection description:Can be used for attack code:@synthesize firstNameField, lastNameField, ssnField;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:8 category:SQL_Injection description:Can be used for attack code:@synthesize firstNameField, lastNameField, ssnField;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:11 category:SQL_Injection description:Can be used for attack code:SBJsonWriter *jsonWriter = [[SBJsonWriter alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:12 category:Cut_And_Paste-Leakage description:Can be used for attack code:jsonWriter.humanReadable = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:13 category:Cut_And_Paste-Leakage description:Can be used for attack code:jsonWriter.sortKeys = YES;
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:15 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:17 category:SQL_Injection description:Can be used for attack code:NSString *jsonString = [[NSString alloc] initWithString:[jsonWriter stringWithObject:accountInfo]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:19 category:SQL_Injection description:Can be used for attack code:NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:USER_URL]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:26 category:Stored_XSS description:Can be used for attack code:[request setHTTPBody:[jsonString dataUsingEncoding:NSUTF8StringEncoding]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:26 category:Stored_XSS description:Can be used for attack code:[request setHTTPBody:[jsonString dataUsingEncoding:NSUTF8StringEncoding]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:28 category:SQL_Injection description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:28 category:SQL_Injection description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:28 category:Stored_XSS description:Can be used for attack code:NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:34 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:34 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:34 category:Stored_XSS description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:39 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:39 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:39 category:SQL_Injection description:Can be used for attack code:NSDictionary *headers = [(NSHTTPURLResponse *) response allHeaderFields];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:43 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:45 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:51 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:51 category:Stored_XSS description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:56 category:SQL_Injection description:Can be used for attack code:NSString *jsonString = [[NSString alloc] initWithData:responseData encoding:NSASCIIStringEncoding];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:57 category:SQL_Injection description:Can be used for attack code:SBJsonParser *jsonParser = [[SBJsonParser alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:62 category:SQL_Injection description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:62 category:Stored_XSS description:Can be used for attack code:- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:63 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:67 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:67 category:Log_Forging description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:75 category:SQL_Injection description:Can be used for attack code:// the USER_URL constant at the top of the file to...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:79 category:SQL_Injection description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:79 category:SQL_Injection description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:79 category:Stored_XSS description:Can be used for attack code:// The NSURLConnection class will automatically wrap the connection in an SSL
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:84 category:SQL_Injection description:Can be used for attack code:// Additionally, uncomment the two methods defined below to instruct the
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:85 category:SQL_Injection description:Can be used for attack code:// NSURLConnection to ignore the fact that the iGoat server is using a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:85 category:Stored_XSS description:Can be used for attack code:// NSURLConnection to ignore the fact that the iGoat server is using a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:86 category:SQL_Injection description:Can be used for attack code:// self-signed certificate. Normally you would NOT want to do this in a
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:91 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:91 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:92 category:SQL_Injection description:Can be used for attack code:return [protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:95 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:95 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:95 category:Stored_XSS description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:96 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:96 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\ServerCommunicationExerciseController.m Line no:111 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionArticlesViewController.m Line no:42 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionArticlesViewController.m Line no:45 category:SQL_Injection description:Can be used for attack code:[[cell textLabel] setText:[self.articleTitles objectAtIndex:indexPath.row]];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionArticlesViewController.m Line no:61 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:21 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:25 category:Second_Order_SQL_Injection description:Can be used for attack code:sqlite3_prepare_v2(db, [query UTF8String], -1, &stmt, nil);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:25 category:SQL_Injection description:Can be used for attack code:sqlite3_prepare_v2(db, [query UTF8String], -1, &stmt, nil);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:25 category:Stored_XSS description:Can be used for attack code:sqlite3_prepare_v2(db, [query UTF8String], -1, &stmt, nil);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:27 category:SQL_Injection description:Can be used for attack code:NSMutableArray *articleTitles = [[NSMutableArray alloc] init];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:29 category:SQL_Injection description:Can be used for attack code:while (sqlite3_step(stmt) == SQLITE_ROW) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:29 category:Stored_XSS description:Can be used for attack code:while (sqlite3_step(stmt) == SQLITE_ROW) {
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:30 category:SQL_Injection description:Can be used for attack code:NSString *title = [[NSString alloc] initWithUTF8String:(char *)sqlite3_column_text(stmt, 0)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:30 category:SQL_Injection description:Can be used for attack code:NSString *title = [[NSString alloc] initWithUTF8String:(char *)sqlite3_column_text(stmt, 0)];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:38 category:SQL_Injection description:Can be used for attack code:Line is too long, please check the line number
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:41 category:Cut_And_Paste-Leakage description:Can be used for attack code:[self.navigationController pushViewController:articlesController animated:YES];
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:55 category:Second_Order_SQL_Injection description:Can be used for attack code:// built-in sqlite3_bind_text() method, which automatically sanitizes query
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:55 category:SQL_Injection description:Can be used for attack code:// built-in sqlite3_bind_text() method, which automatically sanitizes query
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:55 category:Second_Order_SQL_Injection description:Can be used for attack code:// built-in sqlite3_bind_text() method, which automatically sanitizes query
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:55 category:Second_Order_SQL_Injection description:Can be used for attack code:// built-in sqlite3_bind_text() method, which automatically sanitizes query
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:55 category:SQL_Injection description:Can be used for attack code:// built-in sqlite3_bind_text() method, which automatically sanitizes query
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:62 category:SQL_Injection description:Can be used for attack code:// Then, immediately after calling sqlite3_prepare_v2()...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:62 category:SQL_Injection description:Can be used for attack code:// Then, immediately after calling sqlite3_prepare_v2()...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:62 category:Stored_XSS description:Can be used for attack code:// Then, immediately after calling sqlite3_prepare_v2()...
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:64 category:Second_Order_SQL_Injection description:Can be used for attack code:// sqlite3_bind_text(stmt, 1, [searchString UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:64 category:SQL_Injection description:Can be used for attack code:// sqlite3_bind_text(stmt, 1, [searchString UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:64 category:Second_Order_SQL_Injection description:Can be used for attack code:// sqlite3_bind_text(stmt, 1, [searchString UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:64 category:Second_Order_SQL_Injection description:Can be used for attack code:// sqlite3_bind_text(stmt, 1, [searchString UTF8String], -1, SQLITE_TRANSIENT);
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\SQLInjectionExerciseController.m Line no:80 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoat\Utils.m Line no:16 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
+
+
+C:\Users\anunay_amar\Desktop\owasp-igoat-2.0\iGoat\iGoatTests\iGoatTests.m Line no:36 category:SQL_Injection description:Can be used for attack code:// The iGoat project is principally sponsored by KRvW Associates, LLC
